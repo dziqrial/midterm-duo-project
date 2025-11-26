@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 .logo img {
   width: 50px;
   height: 50px;
@@ -47,7 +47,7 @@
 }
 
 .deskripsi {
-  font-family: "Bodoni Moda", serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -63,4 +63,82 @@
 .fotokegiatan img {
   width: 500px;
   height: 500px;
+}
+
+.deskripsi-program{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding-top: 10px;
+    padding-left: 21px;
+    padding-right: 10px;
+}
+
+.fotoprogram {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 15px;
+    padding: 10px;
+}
+
+/* .reveal-img {
+    width: 100%;
+    margin: 40px 0;
+    border-radius: 15px;
+    transition: 1s ease; 
+    filter: blur(10px);
+    opacity: 0;
+    transform: translateY(30px);
+} */
+
+/* Ketika muncul di layar */
+ /* .reveal-img.show {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateY(0);
+}  */
+
+.fotoprogram img{
+    width: 350px;
+    height: 300px;
+    object-fit:fill; /* supaya foto tidak melebar */
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    align-items:baseline;
+}
+
+/* body {
+    margin: 0;
+    padding: 0;
+    background: #111;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.program-img {
+    width: 100%;
+    margin: 40px 0;
+    border-radius: 15px;
+} */
+
+/* Ketika muncul di layar */
+/* .program-img.show {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateY(0);
+} */
+
+
+footer {
+  background-color: navy;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
 }
