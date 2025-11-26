@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
+
 .logo img {
   width: 50px;
   height: 50px;
@@ -26,4 +28,39 @@
 .navbar ul li a {
   color: white;
   border-radius: 5px;
+}
+
+.beranda {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(galeri/beranda.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  min-height: 100vh;
+  background-position: center;
+}
+
+.konten {
+  display: grid;
+  grid-template-areas: 1fr 1fr;
+  align-items: stretch;
+}
+
+.deskripsi {
+  font-family: "Bodoni Moda", serif;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.deskripsi p {
+  margin-top: 15px;
+  text-align: justify;
+}
+.fotokegiatan {
+  margin: 10px;
+}
+.fotokegiatan img {
+  width: 500px;
+  height: 500px;
 }
