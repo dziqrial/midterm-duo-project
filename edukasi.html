@@ -13,14 +13,33 @@
         <div class="logo">
           <img src="galeri/logo.png" alt="Tarunadaya Varna" />
         </div>
-        <ul>
+        <!-- NAVBAR DESKTOP -->
+        <ul class="nav-desktop">
           <li><a href="index.html">Beranda</a></li>
           <li><a href="program.html">Program</a></li>
-          <li><a class="active" href="edukasi.html">Edukasi</a></li>
+          <li><a href="edukasi.html">Edukasi</a></li>
           <li><a href="kontak.html">Kontak</a></li>
           <li><a href="daftarataulogin.html">Login</a></li>
         </ul>
+
+        <!-- HAMBURGER MENU (Mobile) -->
+        <div class="hamburger" onclick="toggleNav()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </nav>
+
+      <!-- FULLSCREEN MENU OVERLAY (Mobile) -->
+      <div id="menuOverlay">
+        <div class="closeMenu" onclick="toggleNav()">✕</div>
+
+        <a href="index.html">Beranda</a>
+        <a href="program.html">Program</a>
+        <a href="edukasi.html">Edukasi</a>
+        <a href="kontak.html">Kontak</a>
+        <a href="daftarataulogin.html">Login</a>
+      </div>
     </header>
 
     <main class="edukasi">
@@ -89,5 +108,6 @@
         Membangun Lingkungan yang Bersih dan Berkelanjutan
       </p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
